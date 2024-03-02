@@ -9,8 +9,8 @@ public class Mago extends Personaje {
         super();
         this.inteligencia = 0;
     }
-    public Mago(int inteligencia, int vida, int ataque, int armadura){
-        super(vida, ataque, armadura);
+    public Mago(String nombre, int inteligencia, int vida, int ataque, int armadura){
+        super(nombre, vida, ataque, armadura);
         this. inteligencia = inteligencia;
     }
     public Mago(Mago m){

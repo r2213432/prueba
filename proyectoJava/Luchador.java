@@ -9,13 +9,13 @@ public class Luchador extends Personaje{
         super();
         this.fuerza = 0;
     }
-    public Luchador(int fuerza, int vida, int ataque, int armadura){
-        super(vida, ataque, armadura);
+    public Luchador(String nombre, int fuerza, int vida, int ataque, int armadura){
+        super(nombre, vida, ataque, armadura);
         this.fuerza = fuerza;
     }
     public Luchador(Luchador l){
         super(l);
         this.fuerza = l.fuerza;
     }
-    
+
 }
