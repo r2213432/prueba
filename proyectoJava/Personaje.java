@@ -46,6 +46,10 @@ public class Personaje {
     }
     //Metodos
     public void atacar(Personaje p){
+        if (p.vida <=0) {
+            System.out.println("El personaje "+p.nombre+" esta muerto");
+            
+        }
         int x =(this.ataque- p.armadura);
         if(x>0){
             System.out.println(this.nombre+" ha atacado a "+p.nombre+" y le ha hecho "+x+" de daño");
