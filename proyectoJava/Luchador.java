@@ -17,7 +17,9 @@ public class Luchador extends Personaje{
         super(l);
         this.fuerza = l.fuerza;
     }
+    @Override
     public void atacar(Personaje p){
+        
     }
 
 }
