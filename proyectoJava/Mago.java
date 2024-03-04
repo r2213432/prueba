@@ -21,6 +21,9 @@ public class Mago extends Personaje {
     public boolean equals(Mago m) {
         return (super.equals(m) && this.inteligencia== m.inteligencia);
     }
+    public int daño(){
+        return this.getAtaque()+this.inteligencia;
+    }
 }
 
 

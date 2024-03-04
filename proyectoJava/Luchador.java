@@ -21,5 +21,9 @@ public class Luchador extends Personaje{
     public void atacar(Personaje p){
         
     }
+    
+    public int daño(){
+        return (this.getAtaque()+this.fuerza);
+    }
 
 }
